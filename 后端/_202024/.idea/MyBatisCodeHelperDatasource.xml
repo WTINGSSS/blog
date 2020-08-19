@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="addSerializeUid" value="true" />
+        <option name="generateService" value="true" />
+        <option name="javaMapperPackage" value="com.czxy.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/blog_service/src/main/java" />
+        <option name="javaModelPackage" value="com.czxy.domain" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/blog_service/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="blog_service" />
+        <option name="mapperAnnotaion" value="true" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="blog_service">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.czxy.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/blog_service/src/main/java" />
+                  <option name="javaModelPacakge" value="com.czxy.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/blog_service/src/main/java" />
+                  <option name="javaServicePackage" value="com.czxy.service.Impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/blog_service/src/main/java" />
+                  <option name="xmlPackage" value="mapperxml" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/blog_service/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="blogger_service">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.czxy.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/blogger_service/src/main/java" />
+                  <option name="javaModelPacakge" value="com.czxy.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/blogger_service/src/main/java" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/blogger_service/src/main/java" />
+                  <option name="javaServicePackage" value="com.czxy.service.Impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/blogger_service/src/main/java" />
+                  <option name="xmlPackage" value="mapperxml" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/blogger_service/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="blogtype_service">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.czxy.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/blogtype_service/src/main/java" />
+                  <option name="javaModelPacakge" value="com.czxy.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/blogtype_service/src/main/java" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/blogtype_service/src/main/java" />
+                  <option name="javaServicePackage" value="com.czxy.service.Impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/blogtype_service/src/main/java" />
+                  <option name="xmlPackage" value="mapperxml" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/blogtype_service/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="user_service">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.czxy.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/user_service/src/main/java" />
+                  <option name="javaModelPacakge" value="com.czxy.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/user_service/src/main/java" />
+                  <option name="javaServicePackage" value="com.czxy.service.impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/user_service/src/main/java" />
+                  <option name="xmlPackage" value="mapperxml" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/user_service/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="noJdbcType" value="true" />
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="db_blog:t_blog">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="TBlog" />
+                  <option name="moduleName" value="blog_service" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_blog:t_blogger">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="TBlogger" />
+                  <option name="moduleName" value="blogger_service" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_blog:t_blogtype">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="TBlogtype" />
+                  <option name="moduleName" value="blogtype_service" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_blog:t_comment">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="TComment" />
+                  <option name="moduleName" value="blog_service" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="test202024:user">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="User" />
+                  <option name="moduleName" value="user_service" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="useCommonMapper" value="true" />
+        <option name="useLomBokOnModel" value="true" />
+        <option name="xmlMapperPackage" value="mapperxml" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/blog_service/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
